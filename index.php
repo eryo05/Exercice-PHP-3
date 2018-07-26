@@ -17,7 +17,7 @@ for ($prem = 0 ; $prem <= 20 ; $prem++ ){
 $var1 = 100;
 $var2 = 25;
 
-while ($var1 >= 10){
+while ($var1 <= 10){
     echo "<br>" . $var1 * $var2;
     $var1--;
 }
